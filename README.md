@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://avirawat13.github.io/Intro-section-with-dropdown-navigation-solution/
+- Live Site URL: https://avirawat13.github.io/Frontend-Mentor---Intro-section-with-dropdown-navigation-solution/
 
 ## My process
 
@@ -43,4 +43,3 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@AviRawat13](https://www.frontendmentor.io/profile/@AviRawat13)
-- Avi Rawat
