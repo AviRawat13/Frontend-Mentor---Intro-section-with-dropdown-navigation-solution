@@ -1,0 +1,124 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: black;
+  font-weight: 700;
+}
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Epilogue', sans-serif;
+}
+
+/* Navigation */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-link:hover {
+  font-weight: 700;
+}
+
+/* Drop-Down-btn-toogler  */
+.dropdown-toggle::after {
+  content: none;
+}
+
+/* Drop Down Feature Image */
+.feature-logo {
+  padding-right: 15px;
+}
+
+/* Login Button */
+.login-btn {
+  border: 2px solid white;
+  margin: 20px;
+  color: hsl(0, 0%, 41%);
+}
+
+.login-btn:hover {
+  color: hsl(0, 0%, 8%);
+  font-weight: 700;
+}
+
+/* register button */
+.register-btn {
+  border: 2px solid black;
+  color: hsl(0, 0%, 41%);
+  margin: 20px;
+}
+
+.register-btn:hover {
+  color: hsl(0, 0%, 8%);
+  font-weight: 700;
+}
+
+/* Title section */
+#title {
+  padding: 2% 10%;
+}
+.col-of-txt{
+  padding: 4%;
+}
+.big-heading {
+  font-size: 4rem;
+  font-weight: 900;
+  color: hsl(0, 0%, 8%);
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.heading-txt {
+  color: hsl(0, 0%, 41%);
+  padding: 10px 10px 10px 0;
+}
+
+.vecter {
+  display: grid;
+  align-items: left; /* left and right */
+  justify-content: center;
+}
+
+.right-grid-image {
+  width: auto;
+  height: 550px;
+ /* up and down */
+}
+
+/* Press Section */
+#press{
+  padding-top:11%;
+}
+.press-logo {
+  padding-left:3%;
+  padding-right:3%;
+  width: 20%;
+}
+/* Learn More Button */
+.learn-more-btn {
+  border: 2px solid black;
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 8%);
+  margin: 20px;
+}
+
+.learn-more-btn:hover {
+  color: hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 98%);
+  font-weight: 700;
+}
+
+/* Footer Section */
+#footer{
+  text-align: center;
+  font-size: 11px;
+}
+
+/* Media Section */
+@media (max-width:1024px){
+  body{
+    text-align: center;
+  }
+}

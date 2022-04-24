@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device
+  <!-- Bootstrap -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Google Font -->
+  <<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;900&display=swap" rel="stylesheet">
+  <!-- Css Link -->
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+
+<body>
+  <!-- Navigation -->
+  <section id="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand px-4" href="#">snap</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle px-3" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Features <img src="images\icon-arrow-down.svg" alt="drop-down-icon">
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#"><img class="feature-logo" src="images\icon-todo.svg" alt="">Todo List</a></li>
+            <li><a class="dropdown-item" href="#"><img class="feature-logo" src="images\icon-calendar.svg" alt="">Calender</a></li>
+            <li><a class="dropdown-item" href="#"><img class="feature-logo" src="images\icon-reminders.svg" alt="">Reminders</a></li>
+            <li><a class="dropdown-item" href="#"><img class="feature-logo" src="images\icon-planning.svg" alt="">Planning</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle px-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Comapany <img src="images\icon-arrow-down.svg" alt="drop-down-icon">
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">History</a></li>
+            <li><a class="dropdown-item" href="#">Our Team</a></li>
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3" aria-current="page" href="#">Careers</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" aria-current="page" href="#">About</a>
+        </li>
+      </ul>
+      <!--Sign-in And Register Buttons -->
+
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <button type="button" class="btn btn-light login-btn">Login</button>
+        </li>
+        <li>
+          <button type="button" class="btn register-btn">Register</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  </section>
+
+
+  <!-- title -->
+  <section id="title">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-of-txt">
+          <h1 class="big-heading">Make remote work</h1>
+          <p class="heading-txt">Get your team in sync, no matter your location. Streamline processes,
+            create team rituals, and watch productivity soar.</p>
+          <button class="btn btn-lg learn-more-btn" type="button" name="button">Learn more</button>
+
+          <!-- Press -->
+          <section id="press">
+            <img class="press-logo" src="images\client-databiz.svg" alt="press-logo">
+            <img class="press-logo" src="images\client-audiophile.svg" alt="press-logo">
+            <img class="press-logo" src="images\client-meet.svg" alt="press-logo">
+            <img class="press-logo" src="images\client-maker.svg" alt="press-logo">
+          </section>
+
+        </div>
+        <div class="col-lg-6 vecter">
+          <img class="img-responsive right-grid-image" src="images\image-hero-desktop.png" alt="image-hero-destop">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+<section id="footer">
+  <div class="container-fluid">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br>
+      Coded by <a href="https://www.linkedin.com/in/avi-rawat/">Avi Rawat</a>
+    </div>
+  </div>
+</section>
+
+
+</body>
+
+</html>
